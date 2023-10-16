@@ -9,7 +9,7 @@ import branch_manager
 # switch a number to a string, chop in to strings of four, read individual characters as numbers again to get
 # corresponding cistercian "branch". cistercian "branches" as separate images compiled into a numeral?
 # (0001, 0010, 0100, 1000 etc?) a way to compile/connect images? - Pillow-library "branches" without backgrounds to
-# add on to | base?
+# add on to | base? Through pillow merge with alpha channel transparency.
 # cistercian numeral as an object containing four digits/branches?
 
 # test if there are cistercian numeral base branches present, if not, initialize with pillow, creating the branches.
@@ -19,6 +19,7 @@ branch_manager.branch_check()
 
 
 # test for the inputted string to be a number for the translation to work
+# input also from a file?
 
 # iterate over the input string with a step of 4
 #for i in range(0, len(input_string), 4):
