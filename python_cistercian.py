@@ -7,13 +7,12 @@ import branch_manager
 # multiple numerals, presented one after another. output as a pdf? is there a program to "read" cistercians?
 
 # switch a number to a string, chop in to strings of four, read individual characters as numbers again to get
-# corresponding cistercian "branch". cistercian "branches" as separate images compiled into a numeral?
-# (0001, 0010, 0100, 1000 etc?) a way to compile/connect images? - Pillow-library "branches" without backgrounds to
-# add on to | base? Through pillow merge with alpha channel transparency.
+# corresponding cistercian "branch"?
+# cistercian "branches" as separate images compiled into a numeral? (0001, 0010, 0100, 1000 etc?) a way to compile/connect images? - Pillow-library "branches" without backgrounds to add on to | base? Through pillow merge with alpha channel transparency. X
 # cistercian numeral as an object containing four digits/branches?
 
-# test if there are cistercian numeral base branches present, if not, initialize with pillow, creating the branches.
-# Set into its own module.
+# test if there are cistercian numeral base branches present, if not, initialize with pillow, creating the branches. X
+# modify to be portable, user input for working folder etc
 
 branch_manager.branch_check()
 
